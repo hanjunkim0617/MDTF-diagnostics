@@ -19,6 +19,7 @@ In this diagnostics, we quantify the runoff sensitivity of target model using th
 Then, the annual timeseries is smoothed with 5-year moving windows to minimize the storage effect of runoff from previous years. Eventually, the runoff sensitivity is calculated with multiple linear regression as below:
 
 .. math::
+
    \delta{Q} &= {\alpha}\delta{P}
    \frac{D \mathbf{u}_g}{Dt} + f_0 \hat{\mathbf{k}} \times \mathbf{u}_a &= 0; \\
 
