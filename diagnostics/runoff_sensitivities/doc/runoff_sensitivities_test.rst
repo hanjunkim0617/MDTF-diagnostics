@@ -78,10 +78,10 @@ The monthly historical simulations including period 1945-2014 are needed.
 (Model outputs are assumed to be same with CMIP output.)
 
 Target variables:
-   - tas (surface air temperature, K), [time, lat, lon]
-   - pr (precipitaiton, kg m-2 s-1), [time, lat, lon] 
-   - hfls (latent heat flux, W m-2), [time, lat, lon]
-   - mrro (runoff, kg m-2 s-1), [time, lat, lon]
+   - ``tas`` (surface air temperature, K), [time, lat, lon]
+   - ``pr`` (precipitaiton, kg m-2 s-1), [time, lat, lon] 
+   - ``hfls`` (latent heat flux, W m-2), [time, lat, lon]
+   - ``mrro`` (runoff, kg m-2 s-1), [time, lat, lon]
 
 Lon-lat grids for all variables have to be same. In CMIP, there are some models in which grids are slightly different between land and atmospheric variables. Checking and interpolation are recommended.
 
