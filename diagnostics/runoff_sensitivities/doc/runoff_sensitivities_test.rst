@@ -132,6 +132,22 @@ References
 
 More about this diagnostic
 --------------------------
+.. _my-figure-tag:
+
+.. figure:: Figure1.png
+   :align: center
+   :width: 100 %
+
+   Figure 1.
+
+.. _my-figure-tag:
+
+.. figure:: Figure2.png
+   :align: center
+   :width: 100 %
+
+   Figure 2.
+
 
 TBD
 
