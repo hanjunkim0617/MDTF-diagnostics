@@ -10,13 +10,17 @@ Runoff projections are essential for future water security. The Earth System Mod
 
 However, runoff projections are generally more uncertain than either P and T projections, implying that additional uncertainties arise at the terrestrial interface (:ref:`Lehner et al., 2019 <ref-Lehner>`; :ref:`Wang et al., 2022 <ref-Wang>`). These additional uncertainties stem from differences in the sensitivity of runoff generation - how runoff responds to a given set of climate forcings. Previous studies have measured this using runoff sensitivity, a metric that qunatifies runoff (Q) changes in response to changes in preciptiation (P sensitivity; δQ/δP, %/%) and temeprature (T sensitivity; δQ/δT, %/°C) (:ref:`Tang and Lettenmaier, 2012 <ref-Tang>`; :ref:`Hoerling et al., 2019 <ref-Hoerling>`; :ref:`Lehner et al., 2019 <ref-Lehner>`; :ref:`Milly and Dunne, 2020 <ref-Milly>`). 
 
-Uncertainty in this runoff sensitivity, inherent to each ESM, can contribute to the projection uncertainty as much as the climate forcings (Kim et al. 2025, *in preparation*). In addition, the runoff sensitivity is often biased in ESMs, indicating that ESMs underestimate the future runoff declines globally (:ref:`Zhang et al., 2023 <ref-Zhang>`; :ref:`Douville et al., 2024 <ref-Douville>`; Kim et al. 2025, *in preparation*). Therefore, reducing the runoff sensitivity biases is important for producing more reliable projection of terrestrial climate change.
+Uncertainty in this runoff sensitivity, inherent to each ESM, can contribute to the projection uncertainty as much as the climate forcings (Kim et al. 2025, *in preparation*). In addition, the runoff sensitivity is often biased in ESMs, indicating that ESMs underestimate the future runoff declines globally (:ref:`Zhang et al., 2023 <ref-Zhang>`; :ref:`Douville et al., 2024 <ref-Douville>`; Kim et al. 2025, *in preparation*). Therefore, reducing the runoff sensitivity bias is important for producing a more reliable projection of terrestrial climate change.
 
 Calculation of runoff sensitivity
 ---------------------------------
 
 In this diagnostics, we quantify the runoff sensitivity of target model using the multiple linear regression. The historical timeseries (1945-2014) is averaged for each water year (Oct.-Sep.) and 131 global river basins.
 Then, the annual timeseries is smoothed with 5-year moving windows to minimize the storage effect of runoff from previous years. Eventually, the runoff sensitivity is calculated with multiple linear regression as below:
+
+.. math::
+   \delta{Q} &= {\alpha}\delta{P}
+   \frac{D \mathbf{u}_g}{Dt} + f_0 \hat{\mathbf{k}} \times \mathbf{u}_a &= 0; \\
 
 δQ=αδP+βδT+γδPδT
 
