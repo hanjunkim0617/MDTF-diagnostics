@@ -3,20 +3,6 @@ Runoff Sensitivities Diagnostic Documentation
 
 Last update: 12/02/2024
 
-Version & Contact info
-----------------------
-
-- Version/revision information: version 2 (12/03/2024)
-- PI: Flavio Lehner, Cornell University, flavio.lehner@cornell.edu
-- Developer/point of contact: Hanjun Kim, Cornell University, hk764@cornell.edu
-- Other contributors: Andy wood, David Lawrence, Katie Dagon, Sean Swenson, Nathan Collier
-
-Open source copyright agreement
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The MDTF framework is distributed under the LGPLv3 license (see LICENSE.txt). 
-
-
 Introduction to runoff sensitivity
 ----------------------------------
 
@@ -38,6 +24,18 @@ where α and β are estimates of P and T sensitivity respectively, δ represents
 
 The calculated runoff sensitivity for target model is then compared to the pre-calculated observational estimations and CMIP5/6 models. For the observational estimates, we used the machine learning-based global runoff reanalysis (GRUN-ENSEMBLE; Ghiggi et al. 2021). We used 100 realizations of GRUN-ENSEMBLES to sample the observational uncertainty. For CMIP models, we used historical simulation from 1945 to 2014. For CMIP5, we extended the timeseries to 2014 using RCP4.5 scenario. The ranges from observational uncertainty, inter-model spread, and uncertainty of regression coefficients are shown foe specific river basins.
 
+Version & Contact info
+----------------------
+
+- Version/revision information: version 2 (12/03/2024)
+- PI: Flavio Lehner, Cornell University, flavio.lehner@cornell.edu
+- Developer/point of contact: Hanjun Kim, Cornell University, hk764@cornell.edu
+- Other contributors: Andy wood, David Lawrence, Katie Dagon, Sean Swenson, Nathan Collier
+
+Open source copyright agreement
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The MDTF framework is distributed under the LGPLv3 license (see LICENSE.txt). 
 
 Functionality
 -------------
