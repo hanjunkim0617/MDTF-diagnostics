@@ -5,7 +5,7 @@ Last update: 12/02/2024
 
 Introduction to runoff sensitivity
 ----------------------------------
-produces `:ref:`Maloney et. al., 2019 <ref-Maloney>``, 
+produces :ref:`Maloney et. al., 2019 <ref-Maloney>`, 
 
 Runoff projections are essential for future water security. The Earth System Models (ESMs) are now being used to inform water resource assessments. However, the substantial model uncertainty has undermined the reliability of ESM projection.The primary source of the runoff projection uncertainty is the model's climate forcing of the land surface, namely inter-model differences in precipitation (P) and surface air temperature (T) trends.
 
@@ -93,6 +93,12 @@ References
 1. E. D. Maloney et al. (2019): Process-Oriented Evaluation of Climate and 
 Weather Forecasting Models. *BAMS*, **100** (9), 1665��1686, 
 `doi:10.1175/BAMS-D-18-0042.1 <https://doi.org/10.1175/BAMS-D-18-0042.1>`__.
+
+which can be cited in text as ``:ref:`a hyperlink <reference tag>```, which 
+gives :ref:`a hyperlink <ref-Maloney>` to the location of the reference on the 
+page. Because references are split between this section and the following "More 
+about this diagnostic" section, unfortunately you'll have to number references 
+manually.
 
 
 .. _ref-Lehner:
