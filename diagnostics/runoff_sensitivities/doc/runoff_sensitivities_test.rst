@@ -90,42 +90,36 @@ References
 
 1. F. Lehner et al. (2019): The potential to reduce uncertainty in regional runoff projections from climate models. *Nature Climate Change*, **9** (12), 926-933, `doi:10.1038/s41558-019-0639-x <https://doi.org/10.1038/s41558-019-0639-x>`__.
 
-:ref:`Lehner et al., 2019 <ref-Lehner>`
-
 .. _ref-Wang:
 
 2. Wang et al. (2022): Future Changes in Global Runoff and Runoff Coefficient From CMIP6 Multi‐Model Simulation Under SSP1‐2.6 and SSP5‐8.5 Scenarios. *Earth’s Future*, **10** (12), e2022EF002910, `doi:10.1029/2022EF002910 <https://doi.org/10.1029/2022EF002910>`__.
-
-:ref:`Wang et al., 2022 <ref-Wang>`
 
 .. _ref-Tang:
 
 3. Tang, Q., & Lettenmaier, D. P. (2012): 21st century runoff sensitivities of major global river basins. *Geophysical Research Letters*, **39** (6), 2011GL050834, `doi:10.1029/2011GL050834 <https://doi.org/10.1029/2011GL050834>`__.
 
-:ref:`Tang and Lettenmaier, 2012 <ref-Tang>`
-
 .. _ref-Hoerling:
 
 4. Hoerling et al. (2019): Causes for the Century-Long Decline in Colorado River Flow. *Journal of Climate*, **32** (23), 8181–8203, `doi:10.1175/JCLI-D-19-0207.1 <https://doi.org/10.1175/JCLI-D-19-0207.1>`__.
-
-:ref:`Hoerling et al., 2019 <ref-Hoerling>`
 
 .. _ref-Zhang:
 
 5. Zhang et al. (2023): Future global streamflow declines are probably more severe than previously estimated. *Nature Water*, **1** (3), 261–271, `doi:10.1038/s44221-023-00030-7 <https://doi.org/10.1038/s44221-023-00030-7>`__.
 
-:ref:`Zhang et al., 2023 <ref-Zhang>`
-
 .. _ref-Milly:
 
 6. Milly, P. C. D., & Dunne, K. A. (2020):  Colorado River flow dwindles as warming-driven loss of reflective snow energizes evaporation. *Science*, **367** (6483), 1252–1255, `doi:10.1126/science.aay9187 <https://doi.org/10.1126/science.aay9187>`__.
-
-:ref:`Milly and Dunne, 2020 <ref-Milly>`
 
 .. _ref-Ghiggi:
 
 7. G. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
 
+:ref:`Lehner et al., 2019 <ref-Lehner>`
+:ref:`Wang et al., 2022 <ref-Wang>`
+:ref:`Tang and Lettenmaier, 2012 <ref-Tang>`
+:ref:`Hoerling et al., 2019 <ref-Hoerling>`
+:ref:`Zhang et al., 2023 <ref-Zhang>`
+:ref:`Milly and Dunne, 2020 <ref-Milly>`
 :ref:`Ghiggi et al., 2019 <ref-Ghiggi>`
 
 
