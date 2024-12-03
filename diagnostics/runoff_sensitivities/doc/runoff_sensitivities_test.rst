@@ -5,7 +5,6 @@ Last update: 12/02/2024
 
 Introduction to runoff sensitivity
 ----------------------------------
-produces :ref:`Maloney et. al., 2019 <ref-Maloney>`, 
 
 Runoff projections are essential for future water security. The Earth System Models (ESMs) are now being used to inform water resource assessments. However, the substantial model uncertainty has undermined the reliability of ESM projection.The primary source of the runoff projection uncertainty is the model's climate forcing of the land surface, namely inter-model differences in precipitation (P) and surface air temperature (T) trends.
 
@@ -86,36 +85,48 @@ Lon-lat grids for all variables have to be same. In CMIP, there are some models 
 
 
 References
-----------
-
-.. _ref-Maloney: 
-   
-1. E. D. Maloney et al. (2019): Process-Oriented Evaluation of Climate and 
-Weather Forecasting Models. *BAMS*, **100** (9), 1665��1686, 
-`doi:10.1175/BAMS-D-18-0042.1 <https://doi.org/10.1175/BAMS-D-18-0042.1>`__.
-
-which can be cited in text as ``:ref:`a hyperlink <reference tag>```, which 
-gives :ref:`a hyperlink <ref-Maloney>` to the location of the reference on the 
-page. Because references are split between this section and the following "More 
-about this diagnostic" section, unfortunately you'll have to number references 
-manually.
-
-
+----------   
 .. _ref-Lehner:
 
-1.F. Lehner et al. (2019): The potential to reduce uncertainty in regional runoff projections from climate models. *Nature Climate Change*, **9** (12), 926-933, `doi:10.1038/s41558-019-0639-x <https://doi.org/10.1038/s41558-019-0639-x>`__.
+1. F. Lehner et al. (2019): The potential to reduce uncertainty in regional runoff projections from climate models. *Nature Climate Change*, **9** (12), 926-933, `doi:10.1038/s41558-019-0639-x <https://doi.org/10.1038/s41558-019-0639-x>`__.
+
+:ref:`Lehner et al., 2019 <ref-Lehner>`
+
+.. _ref-Wang:
+
+2. Wang et al. (2022): Future Changes in Global Runoff and Runoff Coefficient From CMIP6 Multi‐Model Simulation Under SSP1‐2.6 and SSP5‐8.5 Scenarios. *Earth’s Future*, **10** (12), e2022EF002910, `doi:10.1029/2022EF002910 <https://doi.org/10.1029/2022EF002910>`__.
+
+:ref:`Wang et al., 2022 <ref-Wang>`
+
+.. _ref-Tang:
+
+3. Tang, Q., & Lettenmaier, D. P. (2012): 21st century runoff sensitivities of major global river basins. *Geophysical Research Letters*, **39** (6), 2011GL050834, `doi:10.1029/2011GL050834 <https://doi.org/10.1029/2011GL050834>`__.
+
+:ref:`Tang and Lettenmaier, 2012 <ref-Tang>`
+
+.. _ref-Hoerling:
+
+4. Hoerling et al. (2019): Causes for the Century-Long Decline in Colorado River Flow. *Journal of Climate*, **32** (23), 8181–8203, `doi:10.1175/JCLI-D-19-0207.1 <https://doi.org/10.1175/JCLI-D-19-0207.1>`__.
+
+:ref:`Hoerling et al., 2019 <ref-Hoerling>`
+
+.. _ref-Zhang:
+
+5. Zhang et al. (2023): Future global streamflow declines are probably more severe than previously estimated. *Nature Water*, **1** (3), 261–271, `doi:10.1038/s44221-023-00030-7 <https://doi.org/10.1038/s44221-023-00030-7>`__.
+
+:ref:`Zhang et al., 2023 <ref-Zhang>`
+
+.. _ref-Milly:
+
+6. Milly, P. C. D., & Dunne, K. A. (2020):  Colorado River flow dwindles as warming-driven loss of reflective snow energizes evaporation. *Science*, **367** (6483), 1252–1255, `doi:10.1126/science.aay9187 <https://doi.org/10.1126/science.aay9187>`__.
+
+:ref:`Milly and Dunne, 2020 <ref-Milly>`
 
 .. _ref-Ghiggi:
 
-2.G. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
+7. G. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
 
-Wang, A., Miao, Y., Kong, X., & Wu, H. (2022). Future Changes in Global Runoff and Runoff Coefficient From CMIP6 Multi‐Model Simulation Under SSP1‐2.6 and SSP5‐8.5 Scenarios. Earth’s Future, 10(12), e2022EF002910. https://doi.org/10.1029/2022EF002910
-Tang, Q., & Lettenmaier, D. P. (2012). 21st century runoff sensitivities of major global river basins. Geophysical Research Letters, 39(6), 2011GL050834. https://doi.org/10.1029/2011GL050834
-Hoerling, M., Barsugli, J., Livneh, B., Eischeid, J., Quan, X., & Badger, A. (2019). Causes for the Century-Long Decline in Colorado River Flow. Journal of Climate, 32(23), 8181–8203. https://doi.org/10.1175/JCLI-D-19-0207.1
-Zhang, Y., Zheng, H., Zhang, X., Leung, L. R., Liu, C., Zheng, C., Guo, Y., Chiew, F. H. S., Post, D., Kong, D., Beck, H. E., Li, C., & Blöschl, G. (2023). Future global streamflow declines are probably more severe than previously estimated. Nature Water, 1(3), 261–271. https://doi.org/10.1038/s44221-023-00030-7
-Milly, P. C. D., & Dunne, K. A. (2020). Colorado River flow dwindles as warming-driven loss of reflective snow energizes evaporation. Science, 367(6483), 1252–1255. https://doi.org/10.1126/science.aay9187
-Douville, H. (2024). Observational Constraints on Basin-Scale Runoff: A Request for Both Improved ESMs and Streamflow Reconstructions. Geophysical Research Letters, 51(13), e2024GL108824. https://doi.org/10.1029/2024GL108824
-
+:ref:`Ghiggi et al., 2019 <ref-Ghiggi>`
 
 
 More about this diagnostic
