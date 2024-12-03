@@ -108,11 +108,17 @@ References
 
 .. _ref-Milly:
 
-6. Milly, P. C. D., & Dunne, K. A. (2020):  Colorado River flow dwindles as warming-driven loss of reflective snow energizes evaporation. *Science*, **367** (6483), 1252–1255, `doi:10.1126/science.aay9187 <https://doi.org/10.1126/science.aay9187>`__.
+6. Milly, P. C. D., & Dunne, K. A. (2020): Colorado River flow dwindles as warming-driven loss of reflective snow energizes evaporation. *Science*, **367** (6483), 1252–1255, `doi:10.1126/science.aay9187 <https://doi.org/10.1126/science.aay9187>`__.
+
+.. _ref-Douville:
+
+7. Douville, H. (2024): Observational Constraints on Basin-Scale Runoff: A Request for Both Improved ESMs and Streamflow Reconstructions. * Geophysical Research Letters*, **51** (13), e2024GL108824, `doi:10.1029/2024GL108824 <https://doi.org/10.1029/2024GL108824>`__.
+
+Douville, H. (2024). . Geophysical Research Letters, 51(13), e2024GL108824. https://doi.org/10.1029/2024GL108824
 
 .. _ref-Ghiggi:
 
-7. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
+8. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
 
 :ref:`Lehner et al., 2019 <ref-Lehner>`
 :ref:`Wang et al., 2022 <ref-Wang>`
@@ -120,6 +126,7 @@ References
 :ref:`Hoerling et al., 2019 <ref-Hoerling>`
 :ref:`Zhang et al., 2023 <ref-Zhang>`
 :ref:`Milly and Dunne, 2020 <ref-Milly>`
+:ref:`Douville et al., 2024 <ref-Douville>`
 :ref:`Ghiggi et al., 2019 <ref-Ghiggi>`
 
 
