@@ -20,10 +20,7 @@ Then, the annual timeseries is smoothed with 5-year moving windows to minimize t
 
 .. math::
 
-   \delta{Q} &= {\alpha}\delta{P}
-   \frac{D \mathbf{u}_g}{Dt} + f_0 \hat{\mathbf{k}} \times \mathbf{u}_a &= 0; \\
-
-δQ=αδP+βδT+γδPδT
+   \delta{Q} = {\alpha}\delta{P} + {\beta}\delta{T} + {\gamma}\delta{P}\delta{T}
 
 where α and β are estimates of P and T sensitivity respectively, δ represents 5-year averaged anomalies relative to long-term mean, δQ and δP are percent anomalies in runoff and precipitation, δT is temperature anomalies, δPδT is an interaction term. Note that the interaction term is usually negligible and does not affect the values of α and β in CMIP5/6 models.
 
