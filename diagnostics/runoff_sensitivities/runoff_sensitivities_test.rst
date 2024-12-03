@@ -10,7 +10,7 @@ Runoff projections are essential for future water security. The Earth System Mod
 
 However, runoff projections are generally more uncertain than either P and T projections, implying that additional uncertainties arise at the terrestrial interface (Lehner et al. 2019; Wang et al. 2022). These additional uncertainties stem from differences in the sensitivity of runoff generation - how runoff responds to a given set of climate forcings. Previous studies have measured this using runoff sensitivity, a metric that qunatifies runoff (Q) changes in response to changes in preciptiation (P sensitivity; δQ/δP, %/%) and temeprature (T sensitivity; δQ/δT, %/°C) (Tang and Lettenmaier, 2012; Hoerling et al. 2019; Milly and Dunne 2020). 
 
-Uncertainty in this runoff sensitivity, inherent to each ESM, can contribute to the projection uncertainty as much as the climate forcings (Kim et al. 2025, in preparation). In addition, the runoff sensitivity is often biased in ESMs, indicating that ESMs underestimate the future runoff declines globally (Lehner et al. 2019; Zhang et al. 2023; Douville 2024). Therefore, reducing the runoff sensitivity biases is needed to produce more reliable projection of terrestrial climate change.
+Uncertainty in this runoff sensitivity, inherent to each ESM, can contribute to the projection uncertainty as much as the climate forcings (Kim et al. 2025, in preparation). In addition, the runoff sensitivity is often biased in ESMs, indicating that ESMs underestimate the future runoff declines globally (Lehner et al. 2019; Zhang et al. 2023; Douville 2024). Therefore, reducing the runoff sensitivity biases is important for producing more reliable projection of terrestrial climate change.
 
 Calculation of runoff sensitivity
 ---------------------------------
@@ -95,6 +95,9 @@ References
 
 2.G. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
 
+(Lehner et al. 2019; Wang et al. 2022)
+(Tang and Lettenmaier, 2012; Hoerling et al. 2019; Milly and Dunne 2020)
+(Lehner et al. 2019; Zhang et al. 2023; Douville 2024)
 
 More about this diagnostic
 --------------------------
