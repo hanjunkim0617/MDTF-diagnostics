@@ -10,7 +10,7 @@ Runoff projections are essential for future water security. The Earth System Mod
 
 However, runoff projections are generally more uncertain than either P and T projections, implying that additional uncertainties arise at the terrestrial interface (:ref:`Lehner et al., 2019 <ref-Lehner>`; :ref:`Wang et al., 2022 <ref-Wang>`). These additional uncertainties stem from differences in the sensitivity of runoff generation - how runoff responds to a given set of climate forcings. Previous studies have measured this using runoff sensitivity, a metric that qunatifies runoff (Q) changes in response to changes in preciptiation (P sensitivity; δQ/δP, %/%) and temeprature (T sensitivity; δQ/δT, %/°C) (:ref:`Tang and Lettenmaier, 2012 <ref-Tang>`; :ref:`Hoerling et al., 2019 <ref-Hoerling>`; :ref:`Zhang et al., 2023 <ref-Zhang>`; :ref:`Milly and Dunne, 2020 <ref-Milly>`). 
 
-Uncertainty in this runoff sensitivity, inherent to each ESM, can contribute to the projection uncertainty as much as the climate forcings (Kim et al. 2025, in preparation). In addition, the runoff sensitivity is often biased in ESMs, indicating that ESMs underestimate the future runoff declines globally (Lehner et al. 2019; Zhang et al. 2023; Douville 2024). Therefore, reducing the runoff sensitivity biases is important for producing more reliable projection of terrestrial climate change.
+Uncertainty in this runoff sensitivity, inherent to each ESM, can contribute to the projection uncertainty as much as the climate forcings (Kim et al. 2025, in preparation). In addition, the runoff sensitivity is often biased in ESMs, indicating that ESMs underestimate the future runoff declines globally (:ref:`Lehner et al., 2019 <ref-Lehner>`; :ref:`Zhang et al., 2023 <ref-Zhang>`; :ref:`Milly and Dunne, 2020 <ref-Milly>`; :ref:`Douville et al., 2024 <ref-Douville>`). Therefore, reducing the runoff sensitivity biases is important for producing more reliable projection of terrestrial climate change.
 
 Calculation of runoff sensitivity
 ---------------------------------
@@ -113,8 +113,6 @@ References
 .. _ref-Douville:
 
 7. Douville, H. (2024): Observational Constraints on Basin-Scale Runoff: A Request for Both Improved ESMs and Streamflow Reconstructions. * Geophysical Research Letters*, **51** (13), e2024GL108824, `doi:10.1029/2024GL108824 <https://doi.org/10.1029/2024GL108824>`__.
-
-Douville, H. (2024). . Geophysical Research Letters, 51(13), e2024GL108824. https://doi.org/10.1029/2024GL108824
 
 .. _ref-Ghiggi:
 
