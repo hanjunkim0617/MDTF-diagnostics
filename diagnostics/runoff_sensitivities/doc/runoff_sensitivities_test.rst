@@ -5,7 +5,7 @@ Last update: 12/02/2024
 
 Introduction to runoff sensitivity
 ----------------------------------
-:ref:`Lehner et. al., 2019 <ref-Lehner>`
+ :ref:`Lehner et. al., 2019 <ref-Lehner>`
 
 Runoff projections are essential for future water security. The Earth System Models (ESMs) are now being used to inform water resource assessments. However, the substantial model uncertainty has undermined the reliability of ESM projection.The primary source of the runoff projection uncertainty is the model's climate forcing of the land surface, namely inter-model differences in precipitation (P) and surface air temperature (T) trends.
 
@@ -88,11 +88,11 @@ Lon-lat grids for all variables have to be same. In CMIP, there are some models 
 References
 ----------
 
-.. _ref-Lehner: 
+.. _ref-Lehner:
 
 1.F. Lehner et al. (2019): The potential to reduce uncertainty in regional runoff projections from climate models. *Nature Climate Change*, **9** (12), 926-933, `doi:10.1038/s41558-019-0639-x <https://doi.org/10.1038/s41558-019-0639-x>`__.
 
-.. _ref-Ghiggi: 
+.. _ref-Ghiggi:
 
 2.G. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
 
