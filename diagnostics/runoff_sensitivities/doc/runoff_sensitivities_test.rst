@@ -20,7 +20,7 @@ Then, the annual timeseries is smoothed with 5-year moving windows to minimize t
 
 δQ=αδP+βδT+γδPδT
 
-where α and β are estimates of P and T sensitivity respectively, δ represents 5-year averaged anomalies relative to long-term mean, δQ and δP are percent anomalies in runoff and precipitation, δT is temperature anomalies, δPδT is an interaction term. Note that the interaction term is negligible and does not affect the values of α and β.
+where α and β are estimates of P and T sensitivity respectively, δ represents 5-year averaged anomalies relative to long-term mean, δQ and δP are percent anomalies in runoff and precipitation, δT is temperature anomalies, δPδT is an interaction term. Note that the interaction term is usually negligible and does not affect the values of α and β in CMIP5/6 models.
 
 The calculated runoff sensitivity for target model is then compared to the pre-calculated observational estimations and CMIP5/6 models. For the observational estimates, we used the machine learning-based global runoff reanalysis (GRUN-ENSEMBLE; Ghiggi et al. 2021). We used 100 realizations of GRUN-ENSEMBLES to sample the observational uncertainty. For CMIP models, we used historical simulation from 1945 to 2014. For CMIP5, we extended the timeseries to 2014 using RCP4.5 scenario. The ranges from observational uncertainty, inter-model spread, and uncertainty of regression coefficients are shown foe specific river basins.
 
@@ -91,13 +91,20 @@ References
 
 1.F. Lehner et al. (2019): The potential to reduce uncertainty in regional runoff projections from climate models. *Nature Climate Change*, **9** (12), 926-933, `doi:10.1038/s41558-019-0639-x <https://doi.org/10.1038/s41558-019-0639-x>`__.
 
+:ref:`Maloney et. al., 2019 <ref-Maloney>`
+
 .. _ref-Ghiggi: 
 
 2.G. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
 
-(Lehner et al. 2019; Wang et al. 2022)
-(Tang and Lettenmaier, 2012; Hoerling et al. 2019; Milly and Dunne 2020)
-(Lehner et al. 2019; Zhang et al. 2023; Douville 2024)
+Wang, A., Miao, Y., Kong, X., & Wu, H. (2022). Future Changes in Global Runoff and Runoff Coefficient From CMIP6 Multi‐Model Simulation Under SSP1‐2.6 and SSP5‐8.5 Scenarios. Earth’s Future, 10(12), e2022EF002910. https://doi.org/10.1029/2022EF002910
+Tang, Q., & Lettenmaier, D. P. (2012). 21st century runoff sensitivities of major global river basins. Geophysical Research Letters, 39(6), 2011GL050834. https://doi.org/10.1029/2011GL050834
+Hoerling, M., Barsugli, J., Livneh, B., Eischeid, J., Quan, X., & Badger, A. (2019). Causes for the Century-Long Decline in Colorado River Flow. Journal of Climate, 32(23), 8181–8203. https://doi.org/10.1175/JCLI-D-19-0207.1
+Zhang, Y., Zheng, H., Zhang, X., Leung, L. R., Liu, C., Zheng, C., Guo, Y., Chiew, F. H. S., Post, D., Kong, D., Beck, H. E., Li, C., & Blöschl, G. (2023). Future global streamflow declines are probably more severe than previously estimated. Nature Water, 1(3), 261–271. https://doi.org/10.1038/s44221-023-00030-7
+Milly, P. C. D., & Dunne, K. A. (2020). Colorado River flow dwindles as warming-driven loss of reflective snow energizes evaporation. Science, 367(6483), 1252–1255. https://doi.org/10.1126/science.aay9187
+Douville, H. (2024). Observational Constraints on Basin-Scale Runoff: A Request for Both Improved ESMs and Streamflow Reconstructions. Geophysical Research Letters, 51(13), e2024GL108824. https://doi.org/10.1029/2024GL108824
+
+
 
 More about this diagnostic
 --------------------------
