@@ -86,6 +86,44 @@ Target variables:
 Lon-lat grids for all variables have to be same. In CMIP, there are some models in which grids are slightly different between land and atmospheric variables. Checking and interpolation are recommended.
 
 
+More about this diagnostic
+--------------------------
+Runoff sensitivity biases
+^^^^^^^^^^^^^^^^^^^^^^^^^
+.. _my-figure-tag:
+
+.. figure:: Figure1.png
+   :align: center
+   :width: 100 %
+
+   Fig. 1. CMIP6 multi-model median (MMM) (a) P sensitivity and (b) T sensitivity. Observational estimation of (c) P sensitivity and (d) T sensitivity. (e,f) The CMIP6 MMM sensitivity biases. Note that all sensitivities are calculated for the historical period from 1947 to 2017.
+
+The ESM's P sensitivity is positive across all basins, ranging from 1 to 3.5 with consistent values among ESMs (Fig. 1a). T sensitivity is negative for most models in the northern mid-latitudes, while in the tropics and Southern Hemisphere its sign is varied and not consistent across models (Fig. 1b). A negative T sensitivity indicates more evapotranspiration per amount of warming and thus lower runoff, triggered by greater energy input at the surface. Additional factors such as the phase shift from snow to rain and increased water use due to vegetation greening can further contribute to negative T sensitivity. On the other hand, factors like enhanced stomatal closure, increased extreme precipitation events, and glacier melt can contribute to relatively more positive T sensitivity. These competing effects and their imperfect representations in models result in a wide range of T sensitivities across models.
+
+The observed P and T sensitivities generally range from 1 to 3.5 and -30%/°C to slightly positive, respectively (Fig. 1c,d). CMIP6 models show significantly different P sensitivities in 106 out of 131 basins, overestimating the sensitivities in 102 of those 106 basins (Fig. 1e). On the other hand, CMIP6 models’ T sensitivities differ significantly from the observations in 90 out of 131 basins, underestimating the negative sensitivities in 75 of those 90 basins (Fig. 1f). **Overall, climate models tend to exhibit more positive P sensitivity and less negative T sensitivity compared to the observational estimates.**
+
+
+Impact on the future runoff projections
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. _my-figure-tag:
+
+.. figure:: Figure2.png
+   :align: center
+   :width: 100 %
+
+   Fig. 2. (a) Algorithm for testing the statistical significance of observational constraint. Observational constraining effect on MMM runoff projection in (b) CMIP6 SSP2-4.5 scenario and (c) CMIP5 RCP4.6 scenario (% change, 2030-2070 vs. 1947-2017). MMM runoff projection (d) before and (e) after correction by the observational constraint.
+
+How could such runoff sensitivity bias affect future projection? This motivates an observational constraint: the use of the observed runoff sensitivity to constrain the ESM runoff projections. We do this by convolving the observational sensitivity with the ESM's projection in T and P:
+
+.. math::
+
+   \Delta{Q}_{obs} = {\alpha}_{obs}\Delta{P}_{ESM} + {\beta}_{obs}\Delta{T}_{ESM}
+
+The difference between this observationally-constrained projection and the unconstrained model projection is the observational constraining effect. We developed a systematic approach to test the significance of the constraining effect (Fig.2a; see details in Kim et al., 2025, *in preparation*). As a result, the observationally-constrained projections indicate a drier future than the unconstrained projections (Fig. 2b,c). The downward correction is significant for 41 of 131 global river basins, after accounting for the observational uncertainty, potential non-stationary of sensitivity, and the impacts of internal variability. The downward correction mainly arises from the T sensitivity bias (Fig. 2b,c). **In other words, the ESMs underestimate the future runoff decline mainly because negative T sensitivity is too weak compared to observations.** This systematic underestimation of runoff decline is consistent with previous studies that have adjusted runoff projections downward using other observational datasets and statistical methods (:ref:`Zhang et al., 2023 <ref-Zhang>`; :ref:`Douville et al., 2024 <ref-Douville>`).
+
+The causes of the models’ runoff sensitivity biases are not identified here and warrant further investigation. A sensitivity analysis of mean state climate variables for each basin shows that P sensitivity generally exhibits an inverse relationship with mean runoff and runoff ratio (Q/P), as previously noted. In contrast, temperature sensitivity generally displays no systematic inter-model correlation with any mean state variables. Depending on the basins, a significant correlation to certain mean state variables exists, but it is difficult to identify a more global culprit. **This suggests that traditional modeling approaches, which focus on improving mean state biases, may improve predictions related to P sensitivity but are unlikely to resolve the more critical T sensitivity biases.** To more effectively tackle these challenges with the support of the broader scientific community, we have developed a runoff sensitivity metric package.
+
+
 References
 ----------   
 .. _ref-Lehner:
@@ -119,38 +157,3 @@ References
 .. _ref-Ghiggi:
 
 8. Ghiggi et al. (2021): G‐RUN ENSEMBLE: A multi‐forcing observation‐based global runoff reanalysis. *Water Resources Research*, **57** (5), e2020WR028787, `doi:10.1029/2020WR028787 <https://doi.org/10.1029/2020WR028787>`__.
-
-:ref:`Lehner et al., 2019 <ref-Lehner>`
-:ref:`Wang et al., 2022 <ref-Wang>`
-:ref:`Tang and Lettenmaier, 2012 <ref-Tang>`
-:ref:`Hoerling et al., 2019 <ref-Hoerling>`
-:ref:`Zhang et al., 2023 <ref-Zhang>`
-:ref:`Milly and Dunne, 2020 <ref-Milly>`
-:ref:`Douville et al., 2024 <ref-Douville>`
-:ref:`Ghiggi et al., 2019 <ref-Ghiggi>`
-
-
-More about this diagnostic
---------------------------
-.. _my-figure-tag:
-
-.. figure:: Figure1.png
-   :align: center
-   :width: 100 %
-
-   Figure 1.
-
-.. _my-figure-tag:
-
-.. figure:: Figure2.png
-   :align: center
-   :width: 100 %
-
-   Figure 2.
-
-
-TBD
-
-
-The runoff sensitivity in climate model is often biased. In general, the negative T sensitivity is often too weak in climate models, indicating that ESMs often underestimate the future runoff decline. 
-However, while the P sensitivity is generally correlated with the mean state biases, the T sensitivity exhibits no systematic relationship with mean state biases. Hence, the traditional modeling approaches, which focus on improving mean state biases, may not reseolve the T sensitivity biases. Therefore, we need the new diagnostics of runoff sensitivity to facilitate the future model development.
