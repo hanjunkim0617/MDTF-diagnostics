@@ -121,7 +121,7 @@ References
 :ref:`Zhang et al., 2023 <ref-Zhang>`
 :ref:`Milly and Dunne, 2020 <ref-Milly>`
 :ref:`Ghiggi et al., 2019 <ref-Ghiggi>`
-
+`Lehner et al., 2019 <ref-Lehner>`__
 
 More about this diagnostic
 --------------------------
